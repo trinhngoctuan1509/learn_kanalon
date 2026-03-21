@@ -6,21 +6,21 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://limista.com/login'</initValue>
+      <initValue>'https://dev.limista.com/login'</initValue>
       <name>LOGIN_URL</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'nhintt@runsystem.net'</initValue>
+      <initValue>'user24@runsystem.net'</initValue>
       <name>LOGIN_USERNAME</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'thaonhi678'</initValue>
+      <initValue>'1234qwer'</initValue>
       <name>LOGIN_PASSWORD</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
