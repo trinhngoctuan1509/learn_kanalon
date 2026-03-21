@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnSubmit</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='btnSubmit' and not(@disabled)]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

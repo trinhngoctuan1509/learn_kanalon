@@ -6,14 +6,18 @@
    <elementGuidId>26c1f067-56ee-45e3-a8e7-2850e77c7c43</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#spree_user_password</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='spree_user_password']</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

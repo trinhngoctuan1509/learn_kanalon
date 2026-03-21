@@ -6,14 +6,18 @@
    <elementGuidId>6eab4465-9ab3-4c3a-b1d1-a77727a6f702</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='btnLogin' and not(@disabled)]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnLogin</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>#btnLogin</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

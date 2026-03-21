@@ -6,14 +6,18 @@
    <elementGuidId>d4f158e0-73a1-4293-9f5e-6db0df04128b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#spree_user_email</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='spree_user_email']</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
