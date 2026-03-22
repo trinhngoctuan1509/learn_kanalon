@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Card_Project</name>
+   <name>Btn_DeliveryNext</name>
    <tag></tag>
-   <elementGuidId>67ae8be0-6d05-4479-844b-c13bf7579aba</elementGuidId>
+   <elementGuidId>343fc4d4-9ea3-43b4-a589-d66b6ef23de1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@href='/projects/2353']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#category-0 #categoryProject > div > div:nth-child(4) > div > a</value>
+         <value>#deliveryNext</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

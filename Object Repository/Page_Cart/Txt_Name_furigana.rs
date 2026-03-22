@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Card_Project</name>
+   <name>Txt_Name_Furigana</name>
    <tag></tag>
-   <elementGuidId>67ae8be0-6d05-4479-844b-c13bf7579aba</elementGuidId>
+   <elementGuidId>6c9c180a-dd9e-4622-94f3-01f926f118d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@href='/projects/2353']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#category-0 #categoryProject > div > div:nth-child(4) > div > a</value>
+         <value>#order_line_items_attributes_0_nicknames_attributes_0_furigana</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
