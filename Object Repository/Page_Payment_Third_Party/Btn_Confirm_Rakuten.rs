@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Txt_Message</name>
+   <name>Btn_Confirm_Rakuten</name>
    <tag></tag>
-   <elementGuidId>db08c96f-7eff-4737-ba9a-f55ef792e5bc</elementGuidId>
+   <elementGuidId>269e1b51-ea68-4bdb-9dcc-b4d96ef40f21</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;control&quot;]/div/form[1]/input[4]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#order_line_items_attributes_0_message</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

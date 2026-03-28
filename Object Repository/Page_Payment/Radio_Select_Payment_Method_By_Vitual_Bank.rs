@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Card_Project</name>
+   <name>Radio_Select_Payment_Method_By_Vitual_Bank</name>
    <tag></tag>
-   <elementGuidId>67ae8be0-6d05-4479-844b-c13bf7579aba</elementGuidId>
+   <elementGuidId>28b1b733-02c0-4413-a87e-ecdb9cf7f7df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#category-0 a[href*=&quot;/projects/${projectId}&quot;]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@href='/projects/2353']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>order_payments_attributes__payment_method_id_3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

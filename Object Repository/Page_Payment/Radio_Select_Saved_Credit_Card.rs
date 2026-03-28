@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Card_Project</name>
+   <name>Radio_Select_Saved_Credit_Card</name>
    <tag></tag>
-   <elementGuidId>67ae8be0-6d05-4479-844b-c13bf7579aba</elementGuidId>
+   <elementGuidId>b4f7bd8b-e726-4e7f-a05b-150e6fb17be8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#category-0 a[href*=&quot;/projects/${projectId}&quot;]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@href='/projects/2353']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#card_seq_2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

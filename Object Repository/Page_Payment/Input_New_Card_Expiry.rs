@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Card_Project</name>
+   <name>Input_New_Card_Expiry</name>
    <tag></tag>
-   <elementGuidId>67ae8be0-6d05-4479-844b-c13bf7579aba</elementGuidId>
+   <elementGuidId>808882c4-2d2e-4cfa-9cf3-633903031dbb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#category-0 a[href*=&quot;/projects/${projectId}&quot;]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@href='/projects/2353']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#card_expiry</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

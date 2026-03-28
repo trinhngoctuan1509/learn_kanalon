@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Btn_Confirm_Order</name>
+   <name>Input_New_Card_Code</name>
    <tag></tag>
-   <elementGuidId>c29f483e-fa4c-4c39-b1ce-27d7d5a5a0ba</elementGuidId>
+   <elementGuidId>5e1059be-062a-4976-882f-1088a39f2dee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#placeOrder</value>
+         <value>#card_code</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

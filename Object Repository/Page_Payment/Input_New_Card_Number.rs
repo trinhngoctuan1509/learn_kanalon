@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Txt_Name_Furigana</name>
+   <name>Input_New_Card_Number</name>
    <tag></tag>
-   <elementGuidId>6c9c180a-dd9e-4622-94f3-01f926f118d5</elementGuidId>
+   <elementGuidId>cafa8219-6a21-4141-b4f1-c105d38b379d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#order_line_items_attributes_0_nicknames_attributes_0_furigana</value>
+         <value>#card_number</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

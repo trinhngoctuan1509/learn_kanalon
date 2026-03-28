@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Txt_Name</name>
+   <name>Radio_Select_Payment_Method_By_Credit_Card</name>
    <tag></tag>
-   <elementGuidId>a46d0fe7-881b-4b83-9df0-9a0904036e98</elementGuidId>
+   <elementGuidId>5ef60f4d-b51d-431c-b498-d2a39c24746d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#order_line_items_attributes_0_nicknames_attributes_0_name</value>
+         <value>#order_payments_attributes__payment_method_id_1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

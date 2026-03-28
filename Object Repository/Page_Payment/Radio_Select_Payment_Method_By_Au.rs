@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Txt_Donate</name>
+   <name>Radio_Select_Payment_Method_By_Au</name>
    <tag></tag>
-   <elementGuidId>7bf830d0-6bd4-4b09-b6d0-f1b3348a4c62</elementGuidId>
+   <elementGuidId>4717a2ff-8093-43ad-8f9d-4eaf9e9c7c5b</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='order_payments_attributes__payment_method_id_2']</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#donate</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

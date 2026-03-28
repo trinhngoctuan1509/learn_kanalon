@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Radio_Select_Card</name>
+   <name>Input_Donate</name>
    <tag></tag>
-   <elementGuidId>b4f7bd8b-e726-4e7f-a05b-150e6fb17be8</elementGuidId>
+   <elementGuidId>7bf830d0-6bd4-4b09-b6d0-f1b3348a4c62</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#card_seq_2</value>
+         <value>#donate</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

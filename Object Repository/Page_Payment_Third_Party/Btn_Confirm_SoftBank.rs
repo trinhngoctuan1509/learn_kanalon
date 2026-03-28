@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Radio_Payment_Method_Card</name>
+   <name>Btn_Confirm_SoftBank</name>
    <tag></tag>
-   <elementGuidId>5ef60f4d-b51d-431c-b498-d2a39c24746d</elementGuidId>
+   <elementGuidId>0684ca14-4372-44fc-ac54-d9463e45bb1f</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;control&quot;]/div/form[1]/input[32]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#order_payments_attributes__payment_method_id_1</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

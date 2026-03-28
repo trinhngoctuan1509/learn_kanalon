@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Btn_Confirm3DS</name>
+   <name>Btn_Confirm_Order</name>
    <tag></tag>
-   <elementGuidId>a48451e6-98ad-42a9-9e5d-47288975346d</elementGuidId>
+   <elementGuidId>9b2d9389-10bb-476f-ae13-bf37fd15ab02</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>body > div > form > div > button</value>
+         <value>#placeOrder</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
