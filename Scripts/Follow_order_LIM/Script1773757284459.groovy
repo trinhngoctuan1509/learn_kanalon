@@ -6,39 +6,38 @@ String txtName = 'Nhi'
 String txtNameFurigana = 'ニックネームフリガナ'
 String txtMessage = 'hello'
 String homeUrl = GlobalVariable.HOME_URL
+def paymentMethods = [
+	1: { CustomKeywords.'payment.PaymentKeywords.paymentByRakuten'() },
+	2: { CustomKeywords.'payment.PaymentKeywords.paymentByBankTranfer'() },
+	3: { CustomKeywords.'payment.PaymentKeywords.paymentByDocomo'() }
+]
+
+def processPayments(String projectId, List<Integer> methods, Map<Integer, Closure> paymentMethods) {
+	methods.each { method ->
+
+		if (!paymentMethods.containsKey(method)) {
+			throw new Exception("Invalid payment method: ${method}")
+		}
+
+		CustomKeywords.'cart.AddCardKeywords.addCart'(projectId)
+
+		CustomKeywords.'cart.AddCardKeywords.inputOrderInfo'(
+			txtName,
+			txtNameFurigana,
+			txtMessage
+		)
+
+		paymentMethods[method].call()
+
+		waitForPageLoad(5)
+		navigateToUrl(homeUrl)
+	}
+}
 
 
 
 openBrowser('')
 CustomKeywords.'auth.LoginKeywords.login'()
+processPayments('2366', [1, 2, 3], paymentMethods)
 
-String projectId1 = '2366'
-CustomKeywords.'cart.AddCardKeywords.addCart'(projectId1)
-CustomKeywords.'cart.AddCardKeywords.inputOrderInfo'(
-	txtName,
-	txtNameFurigana,
-	txtMessage
-)
-CustomKeywords.'payment.PaymentKeywords.paymentByRakuten'()
-waitForPageLoad(5)
-navigateToUrl(homeUrl)
-
-String projectId2 = '2366'
-CustomKeywords.'cart.AddCardKeywords.addCart'(projectId2)
-CustomKeywords.'cart.AddCardKeywords.inputOrderInfo'(
-	txtName,
-	txtNameFurigana,
-	txtMessage
-)
-CustomKeywords.'payment.PaymentKeywords.paymentByBankTranfer'()
-navigateToUrl(homeUrl)
-
-String projectId3 = '2366'
-CustomKeywords.'cart.AddCardKeywords.addCart'(projectId3)
-CustomKeywords.'cart.AddCardKeywords.inputOrderInfo'(
-	txtName,
-	txtNameFurigana,
-	txtMessage
-)
-CustomKeywords.'payment.PaymentKeywords.paymentByDocomo'()
 
