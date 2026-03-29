@@ -15,6 +15,8 @@ class LoginKeywords {
 
 		waitForElementVisible(findTestObject('Page_Login/Txt_Email'), 5)
 		setText(findTestObject('Page_Login/Txt_Email'), username)
+		
+		waitForElementVisible(findTestObject('Page_Login/Txt_Password'), 5)
 		setText(findTestObject('Page_Login/Txt_Password'), password)
 
 		waitForElementClickable(findTestObject('Page_Login/Btn_Login'), 5)
